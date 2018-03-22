@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" name="Failed suite [TestNG Automation suite]" guice-stage="DEVELOPMENT">
+  <test name="Parallel Testing test(failed)">
+    <classes>
+      <class name="testNG.FbandFreecrmlogintest">
+        <methods>
+          <include name="Login_fb"/>
+          <include name="Setup"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- testNG.FbandFreecrmlogintest -->
+    </classes>
+  </test> <!-- Parallel Testing test(failed) -->
+</suite> <!-- Failed suite [TestNG Automation suite] -->

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" name="Failed suite [TestNG CrossBrowserTesting suite]" guice-stage="DEVELOPMENT">
+  <test name="Internet Explorer browser(failed)">
+    <parameter name="browser" value="ie"/>
+    <classes>
+      <class name="testNG.CrossBrowsertesting">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="VerifyTitle"/>
+        </methods>
+      </class> <!-- testNG.CrossBrowsertesting -->
+    </classes>
+  </test> <!-- Internet Explorer browser(failed) -->
+</suite> <!-- Failed suite [TestNG CrossBrowserTesting suite] -->

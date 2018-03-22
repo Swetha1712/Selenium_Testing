@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG Automation suite" parallel ="true" thread-count="3">
+  
+  <test name="Parallel Testing test" >
+    <classes>
+      <class name="testNG.FbandFreecrmlogintest"/>
+           
+    </classes>
+        
+  </test> 
+</suite> 

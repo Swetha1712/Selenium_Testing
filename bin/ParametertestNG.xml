@@ -1,0 +1,15 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG Automation suite" >
+  <test name="Parameterization" >
+    
+         
+     <parameter name="comp" value = "parameterc1"/>
+     <parameter name="status" value = "Hot"/>
+     <parameter name="desc" value = "test parameterization"/>
+     <classes>
+      <class name="testNG.ParameterTesting"/>      
+    </classes>
+        
+  </test> 
+</suite> 

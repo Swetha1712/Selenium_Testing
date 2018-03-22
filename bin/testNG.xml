@@ -1,0 +1,21 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG Automation suite" >
+  <test name="Different testing features test" >
+    <classes>
+     <!--   <class name="testNG.FbandFreecrmlogintest"/>
+      <class name="testNG.Assertions_test"/>  -->
+      <class name="testNG.FreecrmLoginPage_test">
+      	<methods>
+    		<exclude name = "GetTitle"/>
+    	</methods>
+    	</class>
+      <class name="testNG.testNGBasics"/>
+      <class name="testNG.TestNGtest"/>      
+            
+    </classes>
+    
+    
+    
+  </test> 
+</suite> 
